@@ -3,7 +3,7 @@ import { monadTestnet } from 'viem/chains';
 import { GAME_CONTRACT_ABI } from './contract-abi';
 
 // Contract configuration
-export const CONTRACT_ADDRESS = (process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || '0x260a867f461a8142d44defe0fecf143ed3937386') as `0x${string}`;
+export const CONTRACT_ADDRESS = (process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || '0xaae8728303fdA17DAD2e35642CC931c447a87108') as `0x${string}`;
 
 // Export the ABI for use in other files
 export const CONTRACT_ABI = GAME_CONTRACT_ABI;

@@ -76,8 +76,8 @@ export function validateOrigin(request: NextRequest): boolean {
   
   const allowedOrigins = [
     'http://localhost:3000',
-    'https://localhost:3000',
-    'https://clickempire.vercel.app',
+    'https://localhost:3001',
+    'https://perpl-keeper.vercel.app',
     process.env.NEXT_PUBLIC_APP_URL
   ].filter(Boolean);
 
