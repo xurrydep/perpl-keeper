@@ -16,27 +16,27 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "CLICK EMPIRE — If you enjoy building Nads, keep clicking.",
-    template: "%s — CLICK EMPIRE",
+    default: "PERPL KEEPER — Avoid the wind and grow Perpl.",
+    template: "%s — PERPL KEEPER",
   },
   description:
-    "Building is a click, and the more you click, the more you succeed. Come on, let’s build!",
-  metadataBase: new URL("https://clickempire.vercel.app/"),
+    "Avoid the wind and grow Perpl, the bigger the flame, the better.",
+  metadataBase: new URL("https://perpl-keeper.vercel.app/"),
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
   openGraph: {
-    url: "https://clickempire.vercel.app/",
-    siteName: "CLICK EMPIRE",
-    title: "CLICK EMPIRE — If you enjoy building Nads, keep clicking.",
+    url: "https://perpl-keeper.vercel.app/",
+    siteName: "PERPL KEEPER",
+    title: "PERPL KEEPER — Avoid the wind and grow Perpl.",
     description:
-      "Building is a click, and the more you click, the more you succeed. Come on, let’s build!",
+      "Avoid the wind and grow Perpl, the bigger the flame, the better.",
     images: [{ url: "/og.png" }], // /public/og.png
   },
   twitter: {
     card: "summary_large_image",
-    title: "CLICK EMPIRE — If you enjoy building Nads, keep clicking.",
+    title: "PERPL KEEPER — Avoid the wind and grow Perpl.",
     description:
-      "Building is a click, and the more you click, the more you succeed. Come on, let’s build!",
+      "Avoid the wind and grow Perpl, the bigger the flame, the better.",
     images: ["/og.png"], // /public/og.png
   },
 };
