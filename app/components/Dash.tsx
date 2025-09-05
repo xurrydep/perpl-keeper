@@ -702,7 +702,7 @@ export default function Dash({ playerAddress }: DashProps) {
           </div>
           
           {playerAddress && (
-            <div className="mt-6 pt-6 border-t border-white/10">
+            <div className="mt-6 pt-6 border-t border-white/10 space-y-3">
               <button
                 onClick={saveScore}
                 disabled={isSavingScore || gameState.score === 0}
@@ -710,6 +710,14 @@ export default function Dash({ playerAddress }: DashProps) {
               >
                 {isSavingScore ? 'Saving...' : 'Save Score to Blockchain'}
               </button>
+              
+              <button
+                onClick={() => window.open('https://monad-games-id-site.vercel.app/leaderboard?page=1&gameId=263', '_blank')}
+                className="w-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-bold py-3 px-6 rounded-xl hover:scale-105 transition-all duration-300 shadow-lg"
+              >
+                🏆 Leaderboards
+              </button>
+              
               {saveMessage && (
                 <p className={`mt-2 text-sm ${
                   saveMessage.includes('success') ? 'text-green-400' : 'text-red-400'
